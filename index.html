@@ -1,0 +1,258 @@
+<!---- https://www.youtube.com/watch?v=qCFN8EujbGI --->
+<head>
+<title> Resume </title>
+<meta name="viewpoint" content="width=device-wdith, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" > 
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+</head>
+<body>    
+	<!--------------Header Section--------->
+	<section id="header"> 
+		<div class="container text-center">
+			<div class ="user-box">
+			<img src="/Users/christopherton/Desktop/chriztopherton.github.io/site-icons/selfie.jpg">
+			<h1> CHRISTOPHER TON </h1>
+			<p> Data Scientist </p>
+		</div>
+	</div>
+	<div class="scroll-btn">
+		<div class="scroll-bar"><a href =""> <span> </span></a></div>
+	</div>
+	</section>
+	<!--------------User Info Section---------->
+	<section id="User-info">
+
+		<div class="nav-bar">
+		<nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto ">
+      <li class="nav-item   ">
+        <a class="nav-link" href="#">HOME </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT ME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">RESUME </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">CONTACT</a>
+      </li>
+    </ul>
+  </div>
+</nav> 
+</div>
+<!--------About --------->
+<div class="about container" id="about">
+	<div class="row">
+		<div class="col-md-6 text-center">
+			<img src="/Users/christopherton/Desktop/chriztopherton.github.io/site-icons/IBM-icon.png" class="profile-img">
+		</div>
+		<div class = "col-md-6">
+			<h3>WHO AM I? </h3>
+			<p>
+				cont_df <- numeric(0)
+
+				cont_df = gdp %>% 
+				  select(country,year,lifeExp) %>% 
+				  group_split(country)  
+
+				#https://community.rstudio.com/t/growth-rate-calculation-in-r/38675/2
+
+				large_change = numeric(0)
+
+				for (i in 1:142){
+				  c = as.data.frame(matrix(as.data.frame(unlist(cont_df[i]))[c(13:36),],nrow=12))
+				  c = c %>% mutate(
+				           Diff_year = V1 - lag(V1),  # Difference in time (just in case there are gaps)
+				           Diff_growth = V2 - lag(V2), # Difference in route between years
+				           Rate_percent = (Diff_growth / Diff_year)/V2 * 100) 
+				  
+				  avg_growth = mean(c$Rate_percent,na.rm=TRUE)
+				  large_change[i] = as.numeric(avg_growth)
+				}
+			</p>
+			<div class="skills-bar">
+				<p> RStudio </p>
+				<div class="progress">
+					<div class= "progress-bar" style = "width: 80%;" >85%</div>
+				</div>
+
+				<p> Python </p>
+				<div class="progress">
+					<div class= "progress-bar" style = "width: 80%;" >70%</div>
+				</div>
+
+			</div>
+		</div>
+	
+</div>
+<!----------Resume ------->
+<div class="resume" id="resume">
+	<div class="container">
+		<div class= "row">
+
+			<div class="col-md-6">
+				<h3 class="text-center"> My Experiences </h3>
+				<ul class = "timeline">
+
+					<li>
+						<h4> <span> 2019 - </span>Social Science Project Intern </h4>
+						<p> cont_df <- numeric(0)
+
+							cont_df = gdp %>% 
+							  select(country,year,lifeExp) %>% 
+							  group_split(country)  
+
+							#https://community.rstudio.com/t/growth-rate-calculation-in-r/38675/2
+
+							large_change = numeric(0)<br>
+						<b> Company</b> -xyz company lmao <br>
+						<b> Duration</b> -xyz company lmao <br>
+						<b> Location</b> -xyz company lmao <br>
+						</p>
+					</li>
+
+					<li>
+						<h4> <span> 2019 - </span>Social Science Project Intern </h4>
+						<p> cont_df <- numeric(0)
+
+							cont_df = gdp %>% 
+							  select(country,year,lifeExp) %>% 
+							  group_split(country)  
+
+							#https://community.rstudio.com/t/growth-rate-calculation-in-r/38675/2
+
+							large_change = numeric(0)<br>
+						<b> Company</b> -xyz company lmao <br>
+						<b> Duration</b> -xyz company lmao <br>
+						<b> Location</b> -xyz company lmao <br>
+						</p>
+					</li>
+
+					<li>
+						<h4> <span> 2019 - </span>Social Science Project Intern </h4>
+						<p> cont_df <- numeric(0)
+
+							cont_df = gdp %>% 
+							  select(country,year,lifeExp) %>% 
+							  group_split(country)  
+
+							#https://community.rstudio.com/t/growth-rate-calculation-in-r/38675/2
+
+							large_change = numeric(0)<br>
+						<b> Company</b> -xyz company lmao <br>
+						<b> Duration</b> -xyz company lmao <br>
+						<b> Location</b> -xyz company lmao <br>
+						</p>
+					</li>  
+
+				</ul>
+			</div>
+
+			<div class="col-md-6">
+				<h3 class="text-center"> My Projects  </h3>
+				<ul class = "timeline">
+
+					<li>
+						<h4> <span> 2019 - </span>Social Science Project Intern </h4>
+						<p> cont_df <- numeric(0)
+
+							cont_df = gdp %>% 
+							  select(country,year,lifeExp) %>% 
+							  group_split(country)  
+
+							#https://community.rstudio.com/t/growth-rate-calculation-in-r/38675/2
+
+							large_change = numeric(0)<br>
+						<b> Company</b> -xyz company lmao <br>
+						<b> Duration</b> -xyz company lmao <br>
+						<b> Location</b> -xyz company lmao <br>
+						</p>
+					</li>
+
+					<li>
+						<h4> <span> 2019 - </span>Social Science Project Intern </h4>
+						<p> cont_df <- numeric(0)
+
+							cont_df = gdp %>% 
+							  select(country,year,lifeExp) %>% 
+							  group_split(country)  
+
+							#https://community.rstudio.com/t/growth-rate-calculation-in-r/38675/2
+
+							large_change = numeric(0)<br>
+						<b> Company</b> -xyz company lmao <br>
+						<b> Duration</b> -xyz company lmao <br>
+						<b> Location</b> -xyz company lmao <br>
+						</p>
+					</li>
+
+					<li>
+						<h4> <span> 2019 - </span>Social Science Project Intern </h4>
+						<p> cont_df <- numeric(0)
+
+							cont_df = gdp %>% 
+							  select(country,year,lifeExp) %>% 
+							  group_split(country)  
+
+							#https://community.rstudio.com/t/growth-rate-calculation-in-r/38675/2
+
+							large_change = numeric(0)<br>
+						<b> Company</b> -xyz company lmao <br>
+						<b> Duration</b> -xyz company lmao <br>
+						<b> Location</b> -xyz company lmao <br>
+						</p>
+					</li>  
+
+				</ul>
+			</div>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<!-------- Contact ---------->
+<div class="contact" id="contact">
+	<div class="container text-center">
+		<h1> Contact Me </h1>
+		<p class="text-center"> cont_df <- numeric(0)
+
+							cont_df = gdp %>% 
+							  select(country,year,lifeExp) %>% 
+							   </p>
+							<div class="row">
+								<div class="col-md-6">
+								<i class="fas fa-phone"></i>
+								<p> 669-254-6967</p>
+								</div>
+
+								<div class="col-md-6">
+								<i class="fas fa-envelope"></i>
+								<p> chrton@ucdavis.edu</p>
+								</div>
+							</div>
+						</div>
+</div>
+
+	</section>
+
+
+
+
+</body>
+</html>
