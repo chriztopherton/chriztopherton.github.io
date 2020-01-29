@@ -13,6 +13,16 @@ body
 	background-size: cover;
 	background-attachment: fixed;
 } 
+
+#user-info
+{
+	height: 210vh;
+	background:  
+	 url('https://images4.alphacoders.com/206/thumb-1920-206954.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
 .user-box 
 {
 	top: 50%;
@@ -22,7 +32,7 @@ body
 }
 .user-box img
 {
-	border-radius: 50%;
+	border-radius: 100%;
 	width: 250px;
 	border: 2px solid #6caed5;
 }
@@ -35,6 +45,16 @@ body
 .user-box p
 {
 	color: #fff;
+}
+.social-media a
+{
+	border-radius: 100%;
+	width: 15px;
+	height: 15px;
+	margin:0;
+	border: none;
+	outline:none;
+	border-style: none;
 }
 .scroll-btn
 {
@@ -119,8 +139,8 @@ body
 .resume
 {
 	padding-top: 50px;
-	padding-bottom 30px;
-	background: #f9f9f9;
+	padding-bottom: 30px;
+	/*background: #f9f9f9;*/
 }
 .resume h3
 {
@@ -160,6 +180,7 @@ body
 {
 	font-weight: bold;
 	color: #ccc;
+	
 }
 .timeline li:before
 {
@@ -173,4 +194,11 @@ body
 	width: 20px;
 	height: 20px;
 	z-index: 1;
+}
+.resume img
+{
+	width: 250px;
+	border: 2px solid #6caed5;
+	margin-right: -300px;
+	margin-bottom: -700px;
 }
