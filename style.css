@@ -34,7 +34,6 @@ body
 {
 	border-radius: 100%;
 	width: 250px;
-	border: 2px solid #6caed5;
 }
 .user-box h1
 {
@@ -46,15 +45,17 @@ body
 {
 	color: #fff;
 }
-.social-media a
+.social-media 
 {
-	border-radius: 100%;
-	width: 15px;
-	height: 15px;
-	margin:0;
-	border: none;
-	outline:none;
-	border-style: none;
+	padding: 0px;
+	height: auto;
+	outline: none;
+}
+.social-media button
+{
+	border-radius: 50%;
+	max-width: 100%;
+
 }
 .scroll-btn
 {
