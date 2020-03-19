@@ -74,7 +74,7 @@ u1
 	color: white;
 	text-decoration: none;
 	font-size: 60px;
-	transition: all ease-in-out 250ms;
+	transition: all ease-in-out;
 }
 .user-box a:hover
 {
@@ -163,12 +163,13 @@ u1
 .resume
 {
 	padding-top: 50px;
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 	/*background: #f9f9f9;*/
 }
 .resume h3
 {
 	margin-bottom: 50px; 
+	color: white;
 }
 .timeline
 {
@@ -185,13 +186,14 @@ u1
 	width: 2px;
 	height: 100%;
 	z-index: 1;
+	color:white;
 }
 .timeline li
 {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	margin-left: 20px;
-	background: #fff;
+	color: white;
 }
 .timeline li h4
 {
@@ -225,4 +227,15 @@ u1
 	margin-right: -325px;
 	position: relative;
 	top: 70px
+}
+.contact
+{
+	width: 400px;
+	background: rgba(0,0,0,0.4);
+	padding: 10px;
+	text-align: center;
+	margin: auto;
+	margin-top: 15%;
+	color: white;
+	font-family: 'Century Gothic',sans-serif;
 }
