@@ -1,201 +1,194 @@
 <!---- reference: https://www.youtube.com/watch?v=qCFN8EujbGI --->
 <head>
-   <title> Resume </title>
+   <title> Christopher Ton </title>
+   <meta charset="utf-8">
    <meta name="viewpoint" content="width=device-wdith, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <link href="//db.onlinewebfonts.com/c/116d187134420de5733c7c45bbc80c46?family=LuloCleanW01-One" rel="stylesheet" type="text/css"/>
    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
-   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+    <meta name="google" content="notranslate">
+
 </head>
 <body>
    <!--------------Header Section--------->
-   <section id="header">
-      <div class="container text-center">
+   <header>
+      <div class = "menu-toggler">
+         <div class = "bar half start"></div>
+         <div class = "bar"></div>
+         <div class = "bar half end"></div>
+      </div>
+      <nav class = "top-nav">
+         <ul class = "nav-list">
+            <li>
+               <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li>
+               <a href="#about" class="nav-link">About</a>
+            </li>
+            <li>
+               <a href="#portfolio" class="nav-link">Portfolio</a>
+            </li>
+         </u>
+      </nav>
 
-
-         <div class ="user-box">
-            <img src=
-               "https://raw.githubusercontent.com/chriztopherton/chriztopherton.github.io/master/site-icons/selfie.jpg">
+      <div class="landing-text">
             <h1> Christopher Ton </h1>
-            <h5> Data Scientist </h5>
-            <p> University of California, Davis</p>
-            <u1>
+            <h6> Aspiring Data Scientist </h6>
+            
+      </div>
+
+   </header>
+      
+<section class="about" id="about">
+   <div class = "container">
+      <div class = "profile-img">
+         <img src=
+               "https://raw.githubusercontent.com/chriztopherton/chriztopherton.github.io/master/site-icons/selfie.jpg" alt="">
+      </div>
+      <div class = "about-details">
+         <div class = "about-heading">
+            <h1>About</h1>
+            <h6>Myself</h6>
+         </div>
+         <p>
+            Hello there! I'm a first generation student, currently finishing up my senior year at University of California, Davis, where I am majoring in Statistics - Data Science. My passion involves data analysis and presentation, especially visualization. By participating in numerous hackathons, I have become enamored with the process of crafting dashboards and analytical applications that simplify complexity and translate ideas into thought-provoking actions for the many!
+         </p>
+
+         <div class="social-media">
+         <ul class = "nav-list">
                <li>
-                  <a href = 'https://www.linkedin.com/in/chrton/'>
-                     <i class="fa fa-linkedin"></i>
+                  <a href = 'https://www.linkedin.com/in/chrton/' class="icon-link">
+                     <i class="fa fa-linkedin-square"></i>
                   </a>
                </li>
                <li>
-                  <a href = 'https://github.com/chriztopherton'>
+                  <a href = 'https://github.com/chriztopherton'class="icon-link">
                      <i class="fa fa-github-square"></i>
                   </a>
                </li>
-               <li>
-                  <a href = '#'>
-                     
-                  </a>
-               </li>
-            </u1>
+            </ul>
+      </div>
+      </div>
+   </div>
+</section>
 
+<section class = "portfolio" id = "portfolio">
+<div class = "container">
+   <div class = "section-heading">
+      <h1> Portfolio </h1>
+      <h6> My Recent Projects</h6>
+   </div>
+   <div class = "portfolio-item">
+      <div class = "portfolio-img has-margin-right">
+         <iframe width = "420" height="315" src="https://www.youtube.com/embed/lnENYr5YHS0?autoplay=1" frameborder="0" allowfullscreen></iframe>
+      </div>
+         <div class= "portfolio-description">
+            <h6> SacHacks</h6>
+            <h1> 2nd Place Winner: Basketball Analytics Track</h1>
+            <p> • Designed and developed NBA 2k Dash, an interactive visualization web-based analytic app featuring over 125 players, 25 teams and their real game basketball statistics across 15 weeks
+               <br><br>
+•  Performed exploratory data analysis with Jupyter, filtering and aggregating data with PandaSQL and integrated code into Dash/HTML framework
+</p>
+            <a href="https://github.com/chriztopherton/SacHacks" class="cta">View Repo</a>
          </div>
+   </div>
 
-      </div>
-      <div class="scroll-btn">
-         <div class="scroll-bar"><a href =""> <span> </span></a></div>
-      </div>
-   </section>
-   <!--------------User Info Section---------->
-   <section id="User-info">
-      
-      <div class="nav-bar">
-         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-               <ul class="navbar-nav ml-auto ">
-                  <li class="nav-item   ">
-                     <a class="nav-link" href="#">HOME </a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">ABOUT ME</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">RESUME </a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link disabled" href="#">SERVICES</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link disabled" href="#">CONTACT</a>
-                  </li>
-               </ul>
-            </div>
-         </nav>
-      </div>
-
-
-      <!--------About --------->
-      <div class="about container" id="about">
-
-      <div class="row">
-         <div class="col-md-6 text-center">
-            <img src
-               ="https://raw.githubusercontent.com/chriztopherton/chriztopherton.github.io/master/site-icons/IBM.jpg" class="profile-img">
-         </div>
-         <div class = "col-md-6">
-            <h3> Education </h3>
-            <p>
-               <b> University of California, Davis ' 20 </b> <br>
-               <i> Bachelor of Science, Statistics - Data Science </i>
-
-            </p>
-
-            <!---
-            <div class="skills-bar">
-               <p> RStudio </p>
-               <div class="progress">
-                  <div class= "progress-bar" style = "width: 85%;" >85%</div>
-               </div>
-               <p> Python </p>
-               <div class="progress">
-                  <div class= "progress-bar" style = "width: 70%;" >70%</div>
-               </div>
-               <p> SQL </p>
-               <div class="progress">
-                  <div class= "progress-bar" style = "width: 50%;" >50%</div>
-               </div>
-            </div> --->
-
-         </div>
-      </div>
-      <!----------Resume ------->
-      <div class="resume" id="resume">
-         <div class="container">
-            <div class= "row">
-               <div class="col-md-6">
-                  <h3 class="text-center">  Experiences </h3>
-                  <ul class = "timeline">
-                     <li>
-                        
-
-                        <a href = "https://github.com/chriztopherton/nbaS19"><h4> <span> 2019 - </span>Social Science Project Intern </h4></a>
-                        <p> • Developed informative visualizations of 5,000 observed basketball 
-                           game instances from 1946 to the                            transitivity<br> <br>
-                           • Manually track and web scrape large datasets using Python’s Request and BeautifulSoup <br> <br>
-                           • Maintained effective communication with guiding instructor through a version control platform for
-                           collaboration <br> <br>
-                        </p>
-                     </li>
-                  </ul>
-
-                  <div class="col-md-6 text-center">
-                  <img src
-                     ="https://raw.githubusercontent.com/chriztopherton/chriztopherton.github.io/master/site-icons/HD20.jpg" class="profile-img">
-               </div>
-
-
-               </div>
-               <div class="col-md-6">
-                  <h3 class="text-center">  Projects  </h3>
-                  <ul class = "timeline">
-                     <li>
-                        <a href="https://github.com/chriztopherton/SacHacks"><h4> <span> 2020 - </span> SacHacks </h4></a>
-                        <p> • Designed and developed NBA 2k Dash, an interactive visualization web-based analytic app featuring over 125 players, 25 teams and their real game basketball statistics across 15 weeks <br><br>
-                           • Performed exploratory data analysis with Jupyter, filtering and aggregating data with PandaSQL and integrated code into Dash/HTML framework
-                        </p>
-                     </li>
-                     <li>
-                        <a href="https://github.com/chriztopherton/HackDavis20"><h4> <span> 2020 - </span> HackDavis </h4></a>
-                        <p> • Presented actionable and statistical insights for 
+   <div class = "portfolio-item">
+      <div class= "portfolio-description has-margin-right">
+            <h6> HackDavis </h6>
+            <h1> Participant</h1>
+            <p> • Presented actionable and statistical insights for 
                            sustainable energy usage measures to administrative event sponsors <br><br>
                            • Used predictive analysis such as time series forecasting and data mining techniques in R to develop and implement a Shiny dashboard displaying any given buildings historical and predicted behavior<br><br>
                            • Engaged actively in discussions with event collaborators to identify areas of development related to energy consumption<br><br>
                            • Led a team of 4 students in preparing an effective platform for communication and task delegation through GitHub<br>
                         </p>
-                     </li>
-                     <li>
-                        <a href="https://github.com/chriztopherton/ucd_datafestF19"><h4> <span> 2019 - </span> Wine Catalog Challenge Datafest </h4></a>
-                        <p> • Facilitated wine inventory management by 
-                           prototyping an image recognition model to detect potential sections and headers of various wine catalogs in aid of price determination.<br><br>
-                           • Organized training data with SQL by segmenting groups based on text box sizes, pixeled coordinates, and surrounding white space<br><br>
-                           • Prototyped a practical tool using a K-means clustering algorithm with Python and Jupyter Notebook<br><br>
-                        </p>
-                     </li>
-                     <li>
-                        <h4> <span> 2019 - </span> DSS: Datathon for Social Good</h4>
-                        <p> • Leveraged regression in Python within IBM Z 
-                           ecosystem to optimize federal budget allocation in alleviating Bay Area homelessness<br><br>
-                           • Researched over a dozen municipal sources for data and prepared a presentable report of statistical findings for financial discrepancies to IBM engineers and scientists <br><br>
-                        </p>
-                     </li>
-                  </ul>
-               </div>
-            </div>
+            <a href="https://github.com/chriztopherton/HackDavis20" class="cta">View Repo</a>
          </div>
+      <div class = "portfolio-img">
+         <img src=
+               "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/915/615/datas/original.png" alt="">
       </div>
-    
-      <div class="contact" id="contact">
-         <div class="container text-center">
-            <h1> Contact Me </h1>
-            <p class="text-center">  
-            </p>
-            <div class="row">
-               <div class="col-md-6">
-                  <i class="fa fa-phone"></i>
-                  <p> 669-254-6967</p>
-               </div>
-               <div class="col-md-6">
-                  <i class="fa fa-envelope"></i>
-                  <p> chrton@ucdavis.edu</p>
-               </div>
-            </div>
+         
+   </div>
+
+   <div class = "portfolio-item">
+      <div class = "portfolio-img has-margin-right">
+         <iframe width = "420" height="315" src="https://www.youtube.com/embed/GQyHUO80LHk?autoplay=1" frameborder="0" allowfullscreen></iframe>
+      </div>
+         <div class= "portfolio-description">
+            <h6> Traveler's Guide </h6>
+            <p> • Shiny App Dashboard with  as part of a final assignment, includes Google Maps, OpenWeather, Yelp, and TheGuardianNews API.<br><br>
+                           • Allows users to input an origin and destination and returns route + directions, weather statistics, nearby food places and businesses and information regarding events about the destination
+                        </p>
+            <a href="https://youtu.be/GQyHUO80LHk" class="cta">View Repo</a>
          </div>
-      </div>
+   </div>
+</div>
 
    </section>
+
+
+
+<section class = "Experiences" id = "Experiences">
+<div class = "container">
+   <div class = "section-heading">
+      <h1> Work Experience </h1>
+      <h6> What I've Done</h6>
+   </div>
+   <div class="timeline">
+      <ul>
+         <li class = "date" data-date = "2011 - Present">
+            <h1> UC Davis Computational Communication Lab </h1>
+            <h6> Project Intern</h6>
+            <p>
+             • Developed informative visualizations of 5,000 observed basketball game instances from 1946 to the present<br><br>
+            •  Interpreted and hypothetically tested for trends in historical professionalism based on the transitivity property<br><br>
+            •  Manually track and web scrape large datasets using Python's Request and BeautifulSoup<br><br>
+            •  Maintained effective communication with guiding instructor through a version control platform for collaboration
+
+
+            </p>
+         </li>
+      </ul>
+   </div>
+</div>
+</section>
+
+
+
+<!--
+<section class = "Contact" id = "Contact">
+<div class = "container">
+   <form action="">
+      <label for = "name">Name: </label>
+      <input type="text" id = "name" name="name" placeholder="Enter your name..." required>
+      <label for = "email">Email: </label>
+      <input type="email" id = "email" name="email" placeholder="Enter your email..." required>
+      <input type="submit" value="Submit">
+   </form>
+</div>
+</section>-->
+
+<section>
+
+<footer class="copyright">
+   <div class = "up" id = "up">
+      <i class="fa fa-chevron-up"></i>
+   </div>
+   <p>&copy; 2020 Christopher Ton</p>
+</footer>
+
+</section>
+      
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src = "main.js"></script>
+
+
 </body>
 </html>
