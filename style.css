@@ -197,12 +197,13 @@ li{
 .landing-text h1{
 	color: #fff;
 	font-weight: bold;
-	font-size: 150px;
+	font-size: 100px;
 	margin: 10px;
 	font-weight: 100;
 	letter-spacing: 16px;
 	padding: 16px;
 	user-select: none;
+	text-align: center;
 
 }
 .landing-text h6
@@ -212,6 +213,7 @@ li{
 	letter-spacing: 3px;
 	color: #fff;
 	font-weight: 100;
+	text-align:center;
 }
 ul
 {
@@ -273,7 +275,7 @@ ul
 	flex: 1;
 }
 .social-media{
-	margin-top: -400px;
+	margin-top: -250px;
 }
 .social-media i{
 	font-size: 80px;
@@ -354,7 +356,7 @@ ul
 	background-color: rgba(0,0,0,0.05);
 	margin: 0 auto;
 	position: relative;
-	padding: 80px;
+	padding: 200px;
 	list-style:none;
 	text-align: left;
 	width: 100%;
@@ -396,9 +398,9 @@ ul
 }
 .timeline .date::after{
 	content: '';
-	box-shadow: 0 0 0 4px #fd57bf;
+	box-shadow: 0 0 0 4px white;
 	border-radius: 100%;
-	left: -128px;
+	left: -245px;
 	height: 24px;
 	width: 24px;
 	background-color: #313534;
