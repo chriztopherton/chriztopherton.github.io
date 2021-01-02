@@ -1,9 +1,9 @@
 # SITE CONFIGURATION
 title: Christopher's Blog # your site title
-author: GitHub User # You :P
+author: Christopher Ton # You :P
 description: > # Meta description of Homepage
   A collection of my thoughts and experiments with DATA!
-baseurl: "/sleek" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://chriztopherton.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SEO PLUGIN
