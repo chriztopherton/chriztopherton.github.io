@@ -4,10 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Sleek is a modern Jekyll theme focused on speed performance & SEO best practices. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/) or simply read the guide on how to [get started](/getting-started)
+Hi! My name is **Christopher Ton** and I am an aspiring data scientist/analyst from San Jose, CA.
 
-You can find the source code for the Jekyll new theme at:
-[sleek](https://github.com/janczizikow/sleek)
+I'm passionate about the practical applications of data, using the insights gained to drive better informed decisions about the world. 
 
-You can find the source code for Jekyll at
-[jekyll](https://github.com/jekyll/jekyll)
+I have experiences competing in hackathons and case competitions that involved stirring up a solution for the community using data provided by local sponsors. I've built analytical project and award winning visualization dashboards that have addressed homelessness, sports, energy usage and COVID-19.
+
+For fun, I enjoy working on side projects and getting involved with the open source community about new tools and technologies around Python/R. 
+
+Feel free to connect with my on [Linkedin](https://www.linkedin.com/in/chriztopherton/)!
