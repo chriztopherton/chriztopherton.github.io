@@ -2,6 +2,7 @@
 layout: post
 title: COVID-19 Tracker
 featured-img: covid_cover
+category: [visualization,covid]
 summary: Track COVID-19's growth over time
 ---
 

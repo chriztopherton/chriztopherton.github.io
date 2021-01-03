@@ -2,6 +2,7 @@
 layout: post
 title: K-Means Clustering for Image Color Segmentation
 featured-img: kmeans_cover
+category: [visualization,clustering]
 summary: Extracting color proportions from images
 ---
 

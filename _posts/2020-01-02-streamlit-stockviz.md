@@ -2,6 +2,7 @@
 layout: post
 title: Stock Visualizer Web Application
 featured-img: stockViz_cover
+category: [visualization,finance]
 summary: Daily stock value visualizer
 ---
 
