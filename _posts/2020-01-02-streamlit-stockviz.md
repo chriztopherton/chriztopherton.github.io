@@ -9,3 +9,5 @@ summary: Daily stock value visualizer
 ## Want to quickly view profit and stock price over time?
 
 Visit [StockViz!](https://share.streamlit.io/chriztopherton/stockviz/main/StockVizer2.py)
+
+- [GitHub](https://github.com/chriztopherton/StockViz)
