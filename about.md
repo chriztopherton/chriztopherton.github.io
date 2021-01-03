@@ -13,3 +13,5 @@ I have experiences competing in hackathons and case competitions that involved s
 For fun, I enjoy working on side projects and getting involved with the open source community about new tools and technologies around Python/R. 
 
 Feel free to connect with my on [Linkedin](https://www.linkedin.com/in/chriztopherton/)!
+
+My resume is available to [view](https://github.com/chriztopherton/chriztopherton.github.io/raw/master/assets/Christopher_Ton_Resume_01_21.pdf)
