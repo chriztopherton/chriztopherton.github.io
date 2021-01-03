@@ -1,7 +1,8 @@
 ---
 layout: post
 title: K-Means Clustering for Image Color Segmentation
-mathjax: true
+featured-img: kmeans_cover
+summary: Extracting color proportions from images
 ---
 
 # Extracting Information from Images Using K-Means Clustering

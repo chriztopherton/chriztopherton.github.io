@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Stock Visualizer Web Application
-mathjax: true
+featured-img: stockViz_cover
+summary: Daily stock value visualizer
 ---
 
 ## Want to quickly view profit and stock price over time?
