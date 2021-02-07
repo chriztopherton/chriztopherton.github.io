@@ -10,7 +10,7 @@
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^8.0.0",
     "jquery": "^3.2.1",
-    "lazysizes": "^4.0.1",
+    "lazysizes": "^5.2.1",
     "mozjpeg": "^7.0.0",
     "normalize.css": "^7.0.0",
     "picturefill": "^3.0.2",
