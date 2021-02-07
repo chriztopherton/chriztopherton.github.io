@@ -2,7 +2,7 @@
 title: Christopher's Blog # your site title
 author: Christopher Ton # You :P
 description: > # Meta description of Homepage
-  A collection of my thoughts and experiments with DATA!
+  A collection of my thoughts and experiments with data!
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://chriztopherton.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
