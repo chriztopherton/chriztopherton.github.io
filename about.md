@@ -14,4 +14,4 @@ For fun, I enjoy working on side projects and getting involved with the open-sou
 
 Feel free to connect with me on [Linkedin](https://www.linkedin.com/in/chriztopherton/)!
 
-My resume is available to [view](https://github.com/chriztopherton/chriztopherton.github.io/blob/master/assets/Christopher_Ton_Resume.pdf)
+My resume is available to [download](https://github.com/chriztopherton/chriztopherton.github.io/raw/master/assets/Christopher_Ton_Resume.pdf)
