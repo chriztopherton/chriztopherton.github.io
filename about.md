@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi! My name is **Christopher Ton** and I am an aspiring data scientist/analyst from San Jose, CA.
+Hi! My name is **Christopher Ton** and I am an aspiring data scientist/analyst from San Jose, CA. Currently, I am pursuing a master's degree in data analytics from SJSU while working as a Data Annotation Specialist at Tesla.
 
 I'm passionate about the practical applications of data, using the insights gained to drive better-informed decisions about the world. 
 
@@ -14,4 +14,4 @@ For fun, I enjoy working on side projects and getting involved with the open-sou
 
 Feel free to connect with me on [Linkedin](https://www.linkedin.com/in/chriztopherton/)!
 
-My resume is available to [view](https://github.com/chriztopherton/chriztopherton.github.io/raw/master/assets/Christopher_Ton_Resume_01_21.pdf)
+My resume is available to [view](https://github.com/chriztopherton/chriztopherton.github.io/blob/master/assets/Christopher_Ton_Resume.pdf)
